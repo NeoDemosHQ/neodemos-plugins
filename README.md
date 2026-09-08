@@ -57,4 +57,5 @@ De pluginversie volgt de live serverversie (`serverInfo.version`).
 Wijzigingen: [CHANGELOG](https://neodemos.nl/wat-is-nieuw).
 
 Licentie voor deze manifesten: MIT. De dienst zelf valt onder de
+[gebruiksvoorwaarden](https://neodemos.nl/voorwaarden) en de
 [privacyverklaring](https://neodemos.nl/privacy) van NeoDemos.
