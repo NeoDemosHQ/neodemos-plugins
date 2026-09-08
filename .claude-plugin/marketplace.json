@@ -1,7 +1,7 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "neodemos",
-  "description": "NeoDemos: bronverankerde raadsinformatie voor Nederlandse gemeenteraden.",
+  "description": "NeoDemos: raadsinformatie van Nederlandse gemeenteraden, met de bron erbij.",
   "version": "1.0.0",
   "owner": {
     "name": "NeoDemos",
@@ -14,7 +14,7 @@
     {
       "name": "neodemos",
       "displayName": "NeoDemos",
-      "description": "Bronverankerd zoeken in Rotterdamse raadsinformatie: moties, notulen, begrotingen en collegebrieven sinds 2002, met citaten naar het oorspronkelijke document.",
+      "description": "Raadsinformatie van Rotterdam met de bron erbij: moties, notulen, begrotingen en collegebrieven sinds 2002, doorzoekbaar vanuit je AI-client.",
       "source": "./plugins/neodemos",
       "version": "0.3.41",
       "author": {

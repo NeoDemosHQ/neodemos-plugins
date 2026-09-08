@@ -1,11 +1,12 @@
 # NeoDemos plugins
 
-Plugin-marketplace voor de NeoDemos MCP-server: bronverankerde raadsinformatie
-voor Nederlandse gemeenteraden (nu Rotterdam, 2002–heden). De plugin verbindt
-je AI-client met de publieke server `https://mcp.neodemos.nl/public/mcp`; er is
-geen login nodig en het verkeer is per IP begrensd.
+NeoDemos ontsluit de raadsinformatie van Rotterdam: moties, notulen, begrotingen en collegebrieven van 2002 tot vandaag, ruim 90.000 documenten. Je stelt een vraag, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document.
 
-Deze repository bevat alleen manifesten en beeldmateriaal. De server zelf en
+Zeven tools, allemaal alleen-lezen. De contextprimer vertelt wie er nu in het college zit en welke coalities er waren. Het instrumentadvies zegt of je met een motie, een amendement of een initiatiefvoorstel het verst komt. Je laat een concepttekst beoordelen, verzamelt context met citaten, en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.
+
+Geen account nodig; de publieke server begrenst het verkeer per IP-adres. De fractiewerkruimte met notities en opgeslagen stukken staat op de OAuth-server `https://mcp.neodemos.nl/mcp` en zit niet in deze plugin.
+
+Deze repository bevat de plugin-manifesten en het beeldmateriaal. De server en
 de documentatie staan op [neodemos.nl](https://neodemos.nl/mcp-installer).
 
 ## Claude Code / Claude Desktop
@@ -20,6 +21,22 @@ de documentatie staan op [neodemos.nl](https://neodemos.nl/mcp-installer).
 ```
 codex plugin marketplace add NeoDemosHQ/neodemos-plugins
 codex plugin add neodemos
+```
+
+## Claude Cowork en Claude Desktop
+
+Open het pluginmenu (+ → Plugins → Add plugin), kies de marketplace
+`NeoDemosHQ/neodemos-plugins` en installeer `neodemos`. Dezelfde marketplace
+werkt in Claude Code en Cowork.
+
+## Andere clients (Cursor, Gemini CLI, Le Chat, Windsurf)
+
+Elke client die een remote MCP-server over Streamable HTTP ondersteunt kan
+rechtstreeks verbinden met `https://mcp.neodemos.nl/public/mcp`. Er is geen
+token nodig. Voorbeeld voor Claude Code zonder plugin:
+
+```
+claude mcp add --transport http neodemos https://mcp.neodemos.nl/public/mcp
 ```
 
 ## Claude.ai (zonder plugin)
