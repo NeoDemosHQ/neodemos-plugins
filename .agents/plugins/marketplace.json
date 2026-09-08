@@ -1,0 +1,20 @@
+{
+  "name": "neodemos",
+  "interface": {
+    "displayName": "NeoDemos"
+  },
+  "plugins": [
+    {
+      "name": "neodemos",
+      "source": {
+        "source": "local",
+        "path": "./plugins/neodemos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

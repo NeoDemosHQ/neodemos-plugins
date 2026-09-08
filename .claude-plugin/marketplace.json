@@ -1,0 +1,36 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "neodemos",
+  "description": "NeoDemos: bronverankerde raadsinformatie voor Nederlandse gemeenteraden.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "NeoDemos",
+    "url": "https://github.com/NeoDemosHQ"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "neodemos",
+      "displayName": "NeoDemos",
+      "description": "Bronverankerd zoeken in Rotterdamse raadsinformatie: moties, notulen, begrotingen en collegebrieven sinds 2002, met citaten naar het oorspronkelijke document.",
+      "source": "./plugins/neodemos",
+      "version": "0.3.41",
+      "author": {
+        "name": "NeoDemos",
+        "url": "https://neodemos.nl"
+      },
+      "category": "productivity",
+      "tags": [
+        "gemeenteraad",
+        "rotterdam",
+        "raadsinformatie",
+        "mcp"
+      ],
+      "homepage": "https://neodemos.nl/mcp-installer",
+      "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
+      "license": "MIT"
+    }
+  ]
+}

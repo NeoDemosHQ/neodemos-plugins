@@ -1,0 +1,41 @@
+{
+  "name": "neodemos",
+  "version": "0.3.41",
+  "description": "Bronverankerd zoeken in Rotterdamse raadsinformatie: moties, notulen, begrotingen en collegebrieven sinds 2002, met citaten naar het oorspronkelijke document.",
+  "author": {
+    "name": "NeoDemos",
+    "url": "https://neodemos.nl"
+  },
+  "homepage": "https://neodemos.nl/mcp-installer",
+  "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
+  "license": "MIT",
+  "keywords": [
+    "gemeenteraad",
+    "rotterdam",
+    "raadsinformatie",
+    "moties",
+    "begroting",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "NeoDemos",
+    "shortDescription": "Bronverankerde raadsinformatie voor Rotterdam",
+    "longDescription": "Bronverankerd zoeken in Rotterdamse raadsinformatie: moties, notulen, begrotingen en collegebrieven sinds 2002, met citaten naar het oorspronkelijke document. De publieke server vereist geen login en is per IP begrensd; de fractie-werkruimte met notities en opgeslagen stukken staat op de OAuth-server https://mcp.neodemos.nl/mcp.",
+    "developerName": "NeoDemos",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://neodemos.nl",
+    "privacyPolicyURL": "https://neodemos.nl/privacy",
+    "defaultPrompt": [
+      "Welke moties over het warmtenet zijn sinds 2024 aangenomen in Rotterdam?",
+      "Adviseer welk raadsinstrument past bij een bezwaar tegen de parkeertarieven.",
+      "Maak een fractienotitie over de woonvisie met bronvermelding."
+    ],
+    "brandColor": "#1F4E5F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

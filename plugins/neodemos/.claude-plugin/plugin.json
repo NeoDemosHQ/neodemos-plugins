@@ -1,0 +1,22 @@
+{
+  "name": "neodemos",
+  "displayName": "NeoDemos",
+  "version": "0.3.41",
+  "description": "Bronverankerd zoeken in Rotterdamse raadsinformatie: moties, notulen, begrotingen en collegebrieven sinds 2002, met citaten naar het oorspronkelijke document.",
+  "author": {
+    "name": "NeoDemos",
+    "url": "https://neodemos.nl"
+  },
+  "homepage": "https://neodemos.nl/mcp-installer",
+  "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
+  "license": "MIT",
+  "keywords": [
+    "gemeenteraad",
+    "rotterdam",
+    "raadsinformatie",
+    "moties",
+    "begroting",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

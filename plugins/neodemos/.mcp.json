@@ -1,0 +1,6 @@
+{
+  "neodemos": {
+    "type": "http",
+    "url": "https://mcp.neodemos.nl/public/mcp"
+  }
+}
