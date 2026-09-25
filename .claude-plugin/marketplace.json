@@ -16,7 +16,7 @@
       "displayName": "NeoDemos",
       "description": "Raadsinformatie van Rotterdam met de bron erbij: moties, notulen, begrotingen en collegebrieven sinds 2002, doorzoekbaar vanuit je AI-client.",
       "source": "./plugins/neodemos",
-      "version": "0.3.41",
+      "version": "0.3.172",
       "author": {
         "name": "NeoDemos",
         "url": "https://neodemos.nl"
