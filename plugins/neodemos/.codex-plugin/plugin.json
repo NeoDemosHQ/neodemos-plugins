@@ -1,6 +1,6 @@
 {
   "name": "neodemos",
-  "version": "0.3.41",
+  "version": "0.3.172",
   "description": "Raadsinformatie van Rotterdam met de bron erbij: moties, notulen, begrotingen en collegebrieven sinds 2002, doorzoekbaar vanuit je AI-client.",
   "author": {
     "name": "NeoDemos",
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "NeoDemos",
     "shortDescription": "Raadsinformatie van Rotterdam, met de bron erbij.",
-    "longDescription": "NeoDemos ontsluit de raadsinformatie van Rotterdam: moties, notulen, begrotingen en collegebrieven van 2002 tot vandaag, ruim 90.000 documenten. Je stelt een vraag, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document.\n\nZeven tools, allemaal alleen-lezen. De contextprimer vertelt wie er nu in het college zit en welke coalities er waren. Het instrumentadvies zegt of je met een motie, een amendement of een initiatiefvoorstel het verst komt. Je laat een concepttekst beoordelen, verzamelt context met citaten, en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.\n\nGeen account nodig; de publieke server begrenst het verkeer per IP-adres. De fractiewerkruimte met notities en opgeslagen stukken staat op de OAuth-server https://mcp.neodemos.nl/mcp en zit niet in deze plugin.",
+    "longDescription": "NeoDemos ontsluit de raadsinformatie van Rotterdam: moties, notulen, begrotingen en collegebrieven van 2002 tot vandaag, ruim 90.000 documenten. Je stelt een vraag, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document.\n\nJe zoekt in moties, notulen, begrotingen en stemmingen, laat een concepttekst beoordelen, verzamelt context met citaten en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.\n\nJe logt één keer in met je NeoDemos-account; de plugin verbindt met https://mcp.neodemos.nl/mcp. Heb je een fractie-account, dan kun je bij het inloggen ook toegang geven tot de fractiewerkruimte met notities en opgeslagen stukken.",
     "developerName": "NeoDemos",
     "category": "Productivity",
     "capabilities": [
