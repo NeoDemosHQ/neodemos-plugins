@@ -1,11 +1,12 @@
 {
   "name": "neodemos",
   "displayName": "NeoDemos",
-  "version": "0.3.43",
+  "version": "0.3.44",
   "description": "Het voorwerk is gedaan, het denkwerk is aan jou: doorzoek raadsstukken, moties, begrotingen en stemmingen vanuit je AI-app, met de bron erbij.",
   "author": {
     "name": "NeoDemos",
-    "url": "https://neodemos.nl"
+    "url": "https://neodemos.nl",
+    "email": "support@neodemos.nl"
   },
   "homepage": "https://neodemos.nl/koppelen",
   "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
@@ -20,5 +21,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "privacyPolicyUrl": "https://neodemos.nl/privacy",
-  "termsOfServiceUrl": "https://neodemos.nl/voorwaarden"
+  "termsOfServiceUrl": "https://neodemos.nl/voorwaarden",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://neodemos.nl/koppelen",
+  "supportUrl": "https://neodemos.nl/koppelen"
 }
