@@ -1,6 +1,6 @@
 # NeoDemos plugins
 
-NeoDemos ontsluit de raadsinformatie van Rotterdam: moties, notulen, begrotingen en collegebrieven van 2002 tot vandaag, ruim 90.000 documenten. Je stelt een vraag, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document.
+Het voorwerk is gedaan, het denkwerk is aan jou. NeoDemos ontsluit openbare raadsstukken van Nederlandse gemeenten en provincies: moties, notulen, begrotingen, collegebrieven en stemmingen. Je stelt een vraag in gewone taal, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document. De dekking groeit; de plugin laat zelf zien welke stukken voor jouw gemeente beschikbaar zijn.
 
 De contextprimer vertelt wie er nu in het college zit en welke coalities er waren. Het instrumentadvies zegt of je met een motie, een amendement of een initiatiefvoorstel het verst komt. Je laat een concepttekst beoordelen, verzamelt context met citaten, en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.
 

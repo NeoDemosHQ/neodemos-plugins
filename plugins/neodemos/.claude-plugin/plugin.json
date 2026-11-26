@@ -1,22 +1,24 @@
 {
   "name": "neodemos",
   "displayName": "NeoDemos",
-  "version": "0.3.42",
-  "description": "Raadsinformatie van Rotterdam met de bron erbij: moties, notulen, begrotingen en collegebrieven sinds 2002, doorzoekbaar vanuit je AI-client.",
+  "version": "0.3.43",
+  "description": "Het voorwerk is gedaan, het denkwerk is aan jou: doorzoek raadsstukken, moties, begrotingen en stemmingen vanuit je AI-app, met de bron erbij.",
   "author": {
     "name": "NeoDemos",
     "url": "https://neodemos.nl"
   },
-  "homepage": "https://neodemos.nl/mcp-installer",
+  "homepage": "https://neodemos.nl/koppelen",
   "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
   "license": "MIT",
   "keywords": [
     "gemeenteraad",
-    "rotterdam",
     "raadsinformatie",
     "moties",
     "begroting",
-    "mcp"
+    "provincie",
+    "stemmingen"
   ],
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://neodemos.nl/privacy",
+  "termsOfServiceUrl": "https://neodemos.nl/voorwaarden"
 }

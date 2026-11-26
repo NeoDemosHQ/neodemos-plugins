@@ -1,31 +1,32 @@
 {
   "name": "neodemos",
-  "version": "0.3.42",
-  "description": "Raadsinformatie van Rotterdam met de bron erbij: moties, notulen, begrotingen en collegebrieven sinds 2002, doorzoekbaar vanuit je AI-client.",
+  "version": "0.3.43",
+  "description": "Het voorwerk is gedaan, het denkwerk is aan jou: doorzoek raadsstukken, moties, begrotingen en stemmingen vanuit je AI-app, met de bron erbij.",
   "author": {
     "name": "NeoDemos",
     "url": "https://neodemos.nl"
   },
-  "homepage": "https://neodemos.nl/mcp-installer",
+  "homepage": "https://neodemos.nl/koppelen",
   "repository": "https://github.com/NeoDemosHQ/neodemos-plugins",
   "license": "MIT",
   "keywords": [
     "gemeenteraad",
-    "rotterdam",
     "raadsinformatie",
     "moties",
     "begroting",
-    "mcp"
+    "provincie",
+    "stemmingen"
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "NeoDemos",
-    "shortDescription": "Raadsinformatie van Rotterdam, met de bron erbij.",
-    "longDescription": "NeoDemos ontsluit de raadsinformatie van Rotterdam: moties, notulen, begrotingen en collegebrieven van 2002 tot vandaag, ruim 90.000 documenten. Je stelt een vraag, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document.\n\nDe contextprimer vertelt wie er nu in het college zit en welke coalities er waren. Het instrumentadvies zegt of je met een motie, een amendement of een initiatiefvoorstel het verst komt. Je laat een concepttekst beoordelen, verzamelt context met citaten, en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.\n\nJe logt één keer in met je NeoDemos-account. Fractieleden lezen ook hun fractiewerkruimte en slaan daar stukken op na bevestiging.",
+    "shortDescription": "Raadsinformatie met de bron erbij.",
+    "longDescription": "Het voorwerk is gedaan, het denkwerk is aan jou. NeoDemos ontsluit openbare raadsstukken van Nederlandse gemeenten en provincies: moties, notulen, begrotingen, collegebrieven en stemmingen. Je stelt een vraag in gewone taal, de plugin zoekt in de stukken en geeft bij elk antwoord de bron mee, tot op het oorspronkelijke document. De dekking groeit; de plugin laat zelf zien welke stukken voor jouw gemeente beschikbaar zijn.\n\nDe contextprimer vertelt wie er nu in het college zit en welke coalities er waren. Het instrumentadvies zegt of je met een motie, een amendement of een initiatiefvoorstel het verst komt. Je laat een concepttekst beoordelen, verzamelt context met citaten, en laat een fractienotitie of raadsstuk opstellen met de bronvermelding er al in.\n\nNeoDemos geeft geen stemadvies en bepaalt geen politieke waarheid. Antwoorden worden met AI opgesteld en kunnen fouten bevatten; controleer de vindplaats. Je logt één keer in met je NeoDemos-account. Fractieleden lezen ook hun fractiewerkruimte en slaan daar stukken op na bevestiging.",
     "developerName": "NeoDemos",
     "category": "Productivity",
     "capabilities": [
-      "Read"
+      "Read",
+      "Write"
     ],
     "websiteURL": "https://neodemos.nl",
     "privacyPolicyURL": "https://neodemos.nl/privacy",
